@@ -1,0 +1,16 @@
+.DS_Store
+
+application/cache/*
+!application/cache/index.html
+!application/cache/.htaccess
+
+application/logs/*
+!application/logs/index.html
+!application/logs/.htaccess
+
+trangbongda/
+uploads/
+config/database.php
+.idea/.workspace.xml
+
+.idea/

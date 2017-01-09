@@ -1,0 +1,60 @@
+a,
+.widget li a{
+  color: #428bca;
+}
+
+a:hover,
+.widget li a:hover,
+ul.sub-menu li.current-menu-item > a,
+ul.sub-menu li > a:hover{
+  color: #428bca;
+}
+
+.widget h2.widgettitle,
+.news-block h2.title{
+	border-top: 3px solid #3498db;
+}
+
+button,
+#footer,
+#featured-slider .featured-slider-control:hover,
+.carousel-indicators li.active,
+.navbar-main .navbar-nav > li.current-menu-parent > a,
+.navbar-main .navbar-nav > li.current-menu-item > a,
+.navbar-main .navbar-nav > li.current-menu-ancestor > a,
+.navbar-main .navbar-nav>li:hover>a,
+.navbar-main .navbar-nav>li>a:hover, 
+.navbar-main .navbar-nav>li>a:focus,
+.navbar-main .navbar-main .dropdown-menu,
+.widget .nav > li.active > a,
+.widget .nav > li:hover > a,
+.btn-primary,
+input[type="submit"],
+#carousel-video .entry-image .fa-play-circle-o,
+.featured-slider.layout-two .slide-controller,
+span.news-category-name,
+.video-layout-two .entry-image .fa-play-circle-o,
+.product-thumbnail-outer .addtocart-btn,
+.woocommerce .quantity .minus, 
+.woocommerce-page .quantity .minus, 
+.woocommerce #content .quantity .minus, 
+.woocommerce-page #content .quantity .minus, 
+.woocommerce .quantity .plus, 
+.woocommerce-page .quantity .plus, 
+.woocommerce #content .quantity .plus, 
+.woocommerce-page #content .quantity .plus,
+.woocommerce-tabs .nav-tabs>li.active>a{
+	background-color: #3498db;
+}
+
+input[type="submit"]:hover,
+.btn-primary:hover,
+.widget .tagcloud a:hover,
+ul.social-icons > li > a:hover{
+	background-color: #39a5ed;
+}
+
+.product-thumbnail-outer:hover{
+	border: 1px solid #3498db;
+}
+

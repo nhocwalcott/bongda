@@ -1,0 +1,94 @@
+.themeum-style-chooser {
+  width: 260px;
+  left: -260px;
+  position: fixed;
+  top: 150px;
+  z-index: 99999;
+  -webkit-transition: left 400ms;
+  transition: left 400ms;
+}
+
+.themeum-style-chooser.opened {
+  left: 0;
+}
+
+.themeum-style-chooser .toggler {
+  position: absolute;
+  top: 0;
+  right: -48px;
+  display: inline-block;
+  background: #f5f5f5;
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  font-size: 24px;
+  color: #000;
+}
+
+.style-chooser-inner {
+  position: relative;
+  background: #f5f5f5;
+  padding: 15px;
+}
+
+.style-chooser-inner h4 {
+  color: #333;
+  margin: 0 0 20px;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.style-chooser-inner ul {
+  list-style: none;
+  padding: 0;
+  margin: -5px;
+}
+
+.style-chooser-inner ul li {
+  display: block;
+  width: 40px;
+  float: left;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.style-chooser-inner ul li.active a {
+  -webkit-box-shadow: 0 0 0 2px rgba(0,0,0,.2);
+  box-shadow: 0 0 0 2px rgba(0,0,0,.2);
+}
+
+.style-chooser-inner ul li a {
+  display: block;
+  height: 30px;
+}
+
+.style-chooser-inner ul li.preset1 a {
+  background: #3498db;
+}
+
+.style-chooser-inner ul li.preset2 a {
+  background: #e74c3c;
+}
+
+.style-chooser-inner ul li.preset3 a {
+  background: #035094;
+}
+
+
+.style-chooser-inner ul li.preset4 a {
+  background: #F88C00;
+}
+
+.style-chooser-inner ul li.preset5 a {
+  background: #4FD4C3;
+}
+
+.style-chooser-inner ul li.preset6 a {
+  background: #97D349;
+}
+
